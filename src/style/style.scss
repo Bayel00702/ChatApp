@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  transition: .5s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@import "form";
+@import "home";

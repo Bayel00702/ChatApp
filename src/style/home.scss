@@ -1,0 +1,41 @@
+.home{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &__send{
+    display: flex;
+    align-items: center;
+    row-gap: 30px;
+    flex-direction: column;
+  }
+  &__output{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    resize: none;
+  }
+  &__label{
+    width: 100%;
+  }
+  &__input{
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px 10px;
+    font-weight: 400;
+    color: black;
+    font-size: 16px;
+
+    &::placeholder{
+      font-weight: 400;
+      color: black;
+      font-size: 16px;
+    }
+  }
+  &__btn{
+    padding: 10px 30px;
+    border: 1px solid black;
+    background: transparent;
+  }
+}
